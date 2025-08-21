@@ -1,38 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Pagina de prueba</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gachiakuta - Personajes</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #6b6b6b;
+    }
+    .hero {
+      background: url("https://i0.wp.com/xiahpop.com/wp-content/uploads/2025/03/Gachiakuta_XIAHPOP.jpg?resize=1200%2C668&ssl=1") center/cover no-repeat;
+      height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 6px 6px 6px black;
+    }
+    .card img {
+      height: 1400px;
+      object-fit: cover;
+    }
+    footer {
+      background: #212529;
+      color: rgb(175, 38, 38);
+      padding: 15px;
+      margin-top: 30px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-    <h1>Gachiakuta</h1>
-    <h2>Personajes</h2>
-    <img src= "https://i0.wp.com/xiahpop.com/wp-content/uploads/2025/03/Gachiakuta_XIAHPOP.jpg?resize=1200%2C668&ssl=1" alt="Gachiakuta" />
-    <h2>Rudo Surebrec</h2>
-    <img src="https://static.wikia.nocookie.net/gachiakuta/images/8/89/Rudo_Surebrec_%28Anime%29.png/revision/latest?cb=20250314021037" alt="Rudo Surebrec" />
-    <ul>
-        <li>Es el protagonista principal de Gachiakuta . Es miembro de los limpiadores del equipo Akuta. Originalmente vivió en la Esfera como un Sphereite entre la gente de la Tribu, pero fue arrojado al Pozo después de ser acusado falsamente del asesinato de su padre adoptivo Regto , quien en realidad fue asesinado por el Ángel. Más tarde es reclutado por Enjin para unirse a los Limpiadores como miembro del Equipo Akuta hasta que recolecta cada pieza de la Serie Watchman que le permitirá regresar a la Esfera.</li>
-        <h2>Apariencia</h2>
-        <li>Rudo es un adolescente de figura delgada y escuálida. Tiene el pelo rubio rojizo, corto, de punta y descuidado, con raíces castaño oscuro en las puntas (gris claro con raíces negras en el manga), y grandes ojos rojos con ojeras, enmarcados por cejas cortas y recortadas. Como la mayoría de los habitantes del barrio, toda su ropa está sucia y desgastada. Su ropa consiste en un chaleco beige holgado con cuello cuadrado y estampado de rayas verticales; encima, lleva una sudadera con capucha grande con estampados marrones similares a la piel que corren por el centro; lleva pantalones holgados también beige y encima, una banda de tela gruesa sujeta por las espinillas y los tobillos con calcetines rojos.</li>
 
-    </ul>
-       </ol>
-       <table>
-            <tr>
-      <img src="https://static.wikia.nocookie.net/gachiakuta/images/6/6b/Rudo%27s_Hands_-_Chapter_1.png/revision/latest?cb=20220222174830" alt="Brazos de Rudo" /> 
-      <ld>Debido al maltrato de sus padres durante su infancia, las manos de Rudo quedaron marcadas por cicatrices desde la punta de los dedos hasta los codos. Se forman patrones anulares dentro de los crecimientos concéntricos de las bandas de piel dañadas. Lleva guantes grandes con un anillo en el centro, que le regaló Regto, sobre vendas que alivian el dolor insoportable de las cicatrices y también le permiten escapar de las miradas de disgusto de la gente. Parece quitárselas solo cuando Regto le atiende las manos.</ld>
-                </tr>
-                <tr>
-                    <td>Su máscara facial completa parece ser de estilo luchador rojo con dibujos estilo iluminación como cejas, los agujeros para los ojos bordeados de forma irregular, y la nariz y la parte inferior de una máscara de gas con púas alrededor del filtro.</td>
-                    
-                    <td>En el Volumen 11 , Rudo aparece con una versión modificada de su uniforme de Limpieza. La capucha es más grande y se le quitan los botones, se le añaden mangas, la cremallera tiene una forma diferente y las botas ahora tienen cordones.</td>
-                </tr>
-            </tr>
-        </table>
-    </ul>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Gachiakuta</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#personajes">Personajes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#apariencia">Apariencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formulario">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div class="hero">
+    <h1>Mangas Dante Muñoz</h1>
+  </div>
+
+  
+  <section id="personajes" class="container py-5">
+    <h2 class="text-center mb-4">Personajes</h2>
+    <div class="row g-4">
+      
+      <div class="col-md-6">
+        <div class="card shadow">
+          <img src="https://static.wikia.nocookie.net/gachiakuta/images/8/89/Rudo_Surebrec_%28Anime%29.png/revision/latest?cb=20250314021037" class="card-img-top" alt="Rudo Surebrec">
+          <div class="card-body">
+            <h5 class="card-title">Rudo Surebrec</h5>
+            <p class="card-text">
+              Protagonista de Gachiakuta. Miembro de los Limpiadores del equipo Akuta. Fue arrojado al Pozo tras ser acusado falsamente del asesinato de su padre adoptivo Regto.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-6">
+        <div class="card shadow">
+          <img src="https://static.wikia.nocookie.net/gachiakuta/images/6/6b/Rudo%27s_Hands_-_Chapter_1.png/revision/latest?cb=20220222174830" class="card-img-top" alt="Brazos de Rudo">
+          <div class="card-body">
+            <h5 class="card-title">Brazos de Rudo</h5>
+            <p class="card-text">
+              Sus manos están cubiertas de cicatrices debido al maltrato infantil. Usa guantes con anillos regalados por Regto (Papá adoptivo) para aliviar el dolor y ocultarlas.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="col-md-6">
+        <div class="card shadow">
+          <img src="https://static.wikia.nocookie.net/gachiakuta/images/a/ac/Regto_%28Anime%29.png/revision/latest?cb=20250607171554" class="card-img-top" alt="Regto">
+          <div class="card-body">
+            <h5 class="card-title">Regto</h5>
+            <p class="card-text">
+              Regto era un hombre alto y delgado de mediana edad, con el pelo desgreñado azul marino partido en medio, ojos azules y una perilla descuidada.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="apariencia" class="container py-5">
+    <h2 class="text-center mb-4">Apariencia</h2>
+    <table class="table table-bordered table-striped">
+      <tr>
+        <td>Rudo Surebrec</td>
+        <td>Estilo luchador rojo con dibujos de iluminación, con partes similares a una máscara de gas.En el Volumen 11, Rudo aparece con una versión modificada de su uniforme de Limpieza, con capucha más grande, mangas y botas con cordones.</td>
+      </tr>
+      <tr>
+        <td>Regto</td>
+        <td>la mayor parte de su ropa está sucia y desgastada. Lleva una camisa beige de manga larga, con cuellos gruesos, y una bufanda beige con rayas verticales color crema y una marca de fuego en la parte superior, abrochada a la cintura. Sobre ella, luce un poncho beige con borlas, mangas cortas y estampados desteñidos. Lleva pantalones beige holgados, sobre los cuales se abrocha un par de calcetines color crema con adornos dorados de tela gruesa alrededor de las espinillas, y zapatos beige.</td>
+      </tr>
+    </table>
+  </section>
+
+
+  <section id="Volumenes" class="container py-5">
+    <h2 class="text-center mb-4">Volumenes</h2>
+    <div class="row g-4">
+      
+      <div class="col-md-6">
+        <div class="card shadow">
+          <img src="https://cdnx.jumpseller.com/comic-way/image/62005136/resize/1079/1439?1743542563" class="card-img-top" alt="Volumen 1">
+          <div class="card-body">
+            <h5 class="card-title">Manga Gachiakuta Tomo 01</h5>
+            <p class="card-text">
+              "Se dice que un alma habita en todos esos objetos que tratamos con mucho cuidado"... o por lo menos eso es lo que su padre adoptivo siempre le dijo. Ludo es un chico huérfano que vive junto a Legt, su padre adoptivo, en un gueto a las afueras de una gran ciudad, donde habitan aquellas personas que son hijos de criminales.
+          </div>
+        </div>
+
+
+      <div class="col-md-6">
+        <div class="card shadow">
+          <img src="https://cdnx.jumpseller.com/comic-way/image/61835742/resize/1079/1439?1743107411" class="card-img-top" alt="Volumen 2">
+          <div class="card-body">
+            <h5 class="card-title">Manga Gachiakuta Tomo 02</h5>
+            <p class="card-text">
+              "Se dice que un alma habita en todos esos objetos que tratamos con mucho cuidado"... o por lo menos eso es lo que su padre adoptivo siempre le dijo. Ludo es un chico huérfano que vive junto a Legt, su padre adoptivo, en un gueto a las afueras de una gran ciudad, donde habitan aquellas personas que son hijos de criminales.
+          </div>
+        </div>
+
+      </div>
+
+ 
+  <section id="formulario" class="container py-5">
+    <h2 class="text-center mb-4">Formulario de Pago</h2>
+    <form class="row g-3 shadow p-4 bg-white rounded">
+      <div class="col-md-6">
+        <label for="nombre" class="form-label">Nombre completo</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre completo">
+      </div>
+      <div class="col-md-6">
+        <label for="correo" class="form-label">Correo</label>
+        <input type="email" class="form-control" id="correo" placeholder="ejemplo@email.com">
+      </div>
+      <div class="col-12">
+        <label for="direccion" class="form-label">Dirección de envío</label>
+        <input type="text" class="form-control" id="direccion" placeholder="Calle, número, ciudad">
+      </div>
+      <div class="col-md-6">
+        <label for="tarjeta" class="form-label">Número de tarjeta</label>
+        <input type="text" class="form-control" id="tarjeta" placeholder="1234 5678 9012 3456">
+      </div>
+      <div class="col-md-3">
+        <label for="vencimiento" class="form-label">Fecha de vencimiento</label>
+        <input type="text" class="form-control" id="vencimiento" placeholder="MM/AA">
+      </div>
+      <div class="col-md-3">
+        <label for="cvv" class="form-label">CVV</label>
+        <input type="password" class="form-control" id="cvv" placeholder="***">
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-dark">Pagar ahora</button>
+      </div>
+    </form>
+  </section>
+
+ 
+  <footer>
+    <p>Tienda de manga desarrollado por Dante Muñoz</p>
+    <p>© 2025 Gachiakuta Fanpage</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
